@@ -25,10 +25,9 @@
 }
 
 body, html {
-    background-image: url(../imagens/Imagem-de-fundo-login.jpg);
-    background-repeat: no-repeat;
-    height: 100vh;
-}
+    background-color: #B4CAD9; /*Azul Acinzentado x*/
+    height: 100vh; 
+}    
 
 main {
     position: relative;
