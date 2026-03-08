@@ -18,12 +18,23 @@
                 <form action="login.php" method="post">
                     <div class="campo">
                         <span class="material-symbols-outlined icone">person</span>
-                        <input type="email" name="login" id="ilogin" placeholder="Nome de usuário ou e-mail">
+                        <input type="email" name="login" id="ilogin" placeholder="Nome de usuário ou e-mail" required>
                     </div>
                 <div class="campo">
                     <span class="material-symbols-outlined icone">lock</span>
-                    <input type="password" name="senha" id="isenha" placeholder="Senha">
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" required>
                 </div>
+                <div class="opcoes">
+                <label>
+                    <input type="checkbox"> Lembrar senha
+                </label>
+                    <a href="esqueci.html">Esqueçi a senha</a>
+                </div> 
+                <br> <br>
+                <input type="submit" value="Entrar" class="botao-login">
+                <p class="criar-conta">
+                    Não tem uma conta? <a href="cadastro.html">Criar conta</a>
+                </p>
                 </form>
             </div>
         </section>

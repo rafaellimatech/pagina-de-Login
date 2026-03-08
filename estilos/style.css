@@ -47,6 +47,11 @@ section#login {
     border-radius: 20px;
     display: flex; 
     overflow: hidden;
+   
+    width: 90%;
+    max-width: 1000px;
+    min-height: 550px;
+
 }
 
 section#login > div#imagem {
@@ -60,6 +65,10 @@ div#formulario{
     width: 50%;
     padding: 60px;
     border-radius: 0 20px 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centraliza verticalmente */
 }
 
 div#formulario > h1 {
@@ -77,7 +86,7 @@ div.campo{
 }
 
 div.campo input{
-    width: 100%;
+    width: 90%;
     height: 45px;
     padding-left: 40px; /* espaço para o ícone */
     font-size: 16px;
@@ -92,3 +101,65 @@ div.campo input{
     color: gray;
 }
 
+.opcoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.opcoes > label {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-right: 35px;
+}
+
+.opcoes a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.botao-login{
+    width: 90%;
+    height: 45px;
+    background-color: #B4CAD9; /* azul da sua paleta */
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fonte-login);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.botao-login:hover{
+    background-color: #9fb8ca;
+}
+
+.criar-conta{
+    font-family: var(--fonte-login);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.criar-conta a{
+    text-decoration: none;
+    color: #4a7aa3;
+    font-weight: 500;
+}
+
+.criar-conta a:hover{
+    text-decoration: underline;
+}
