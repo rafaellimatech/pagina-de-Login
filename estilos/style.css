@@ -51,6 +51,7 @@ section#login {
     max-width: 1000px;
     min-height: 550px;
     
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
 }
 
 section#login > div#imagem {
